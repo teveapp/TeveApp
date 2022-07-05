@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeveApp.Main", "TeveApp\TeveApp.Main.csproj", "{1CC9F0B0-E4C6-4515-A896-72CA339EF41C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeveApp.View", "..\TeveApp.View\TeveApp.View\TeveApp.View.csproj", "{1361329B-A0D8-40B9-838F-596C6F1BE702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeveApp.View", "TeveApp.View\TeveApp.View.csproj", "{1361329B-A0D8-40B9-838F-596C6F1BE702}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeveApp.ViewModel", "TeveApp.ViewModel\TeveApp.ViewModel.csproj", "{3E651A7B-32CB-4413-9603-F3C8F527090F}"
 EndProject
