@@ -4,11 +4,96 @@
                 x:Class="TeveApp.View.LoginView"
                 xmlns:local="clr-namespace:TeveApp.View.Base"
                 Title="LoginView"
-                BackgroundColor="#2A2D3C">
-
-    <StackLayout>
-        <Label Text="Welcome to .NET MAUI!"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-    </StackLayout>
+                BackgroundColor="White">
+    <Grid
+        Margin="0,40,0,0"
+        Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Image
+            BackgroundColor="Transparent"
+            Source="start_up.png"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"
+            HeightRequest="250"
+            WidthRequest="250"/>
+        <StackLayout
+            Padding="15"
+            Grid.Row="1">
+            <Grid
+                RowSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label
+                    CharacterSpacing="1"
+                    Text="Bem vindo ao TeveApp,"
+                    FontSize="18"
+                    TextColor="#172B4D"
+                    FontAttributes="Bold"/>
+                <Label
+                    Margin="0,-15,0,0"
+                    Grid.Row="1"
+                    CharacterSpacing="1"
+                    Text="O melhor app para gestão do seu condomínio!"
+                    FontSize="13"
+                    TextColor="#B1B7C3"
+                    FontAttributes="Bold"/>
+                <Entry
+                    Grid.Row="2"
+                    Placeholder="Email"/>
+                <BoxView
+                    HeightRequest="0.5"
+                    Color="LightGray"
+                    Grid.Row="2"
+                    Margin="0,40,0,0"/>
+                <Entry
+                    Grid.Row="3"
+                    Placeholder="Email"/>
+                <BoxView
+                    HeightRequest="0.5"
+                    Color="LightGray"
+                    Grid.Row="3"
+                    Margin="0,40,0,0"/>
+                <Label
+                    HorizontalTextAlignment="End"
+                    Grid.Row="4"
+                    Text="Esqueceu sua senha?"
+                    FontSize="13"
+                    TextColor="#125ED0"
+                    FontAttributes="Bold"/>
+                <Button
+                    Margin="0,0,0,0"
+                    CornerRadius="20"
+                    Text="Entrar"
+                    Grid.Row="5"
+                    HeightRequest="50"
+                    BackgroundColor="#0065FF"/>
+                <Label
+                    Margin="70,0,0,0"
+                    HorizontalTextAlignment="Start"
+                    Grid.Row="6"
+                    Text="Novo no TeveApp?"
+                    TextColor="#B1B7C3"
+                    FontAttributes="Bold"
+                    FontSize="13"/>
+                <Label
+                    Margin="120,0,0,0"
+                    HorizontalTextAlignment="Center"
+                    Grid.Row="6"
+                    Text="Cadastre-se!"
+                    TextColor="Blue"
+                    FontAttributes="Bold"
+                    FontSize="13"/>
+            </Grid>
+        </StackLayout>
+    </Grid>
 </local:ViewBase>

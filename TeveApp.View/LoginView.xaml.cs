@@ -8,5 +8,10 @@ public partial class LoginView : ViewBase, ILoginView
 	public LoginView()
 	{
 		InitializeComponent();
+		SetEntryView();
 	}
+
+    private void SetEntryView()
+    {
+    }
 }

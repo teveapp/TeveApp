@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,10 @@ namespace TeveApp.View.Base
 {
     public class ViewBase : ContentPage, IViewContext
     {
+        public ViewBase()
+        {
+        }
+
         public void SetBinding(IViewModelBase viewModelBase)
         {
             BindingContext = viewModelBase;

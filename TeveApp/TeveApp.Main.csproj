@@ -49,10 +49,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\TeveApp.View\TeveApp.View\TeveApp.View.csproj" />
+	  <None Remove="Resources\Images\images.jpg" />
+	  <None Remove="Resources\Images\login_image.png" />
+	  <None Remove="Resources\Images\start_up.png" />
+	  <None Remove="Resources\Images\test.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <ProjectReference Include="..\TeveApp.Controls\TeveApp.Controls.csproj" />
 	  <ProjectReference Include="..\TeveApp.Shared\TeveApp.Shared.csproj" />
 	  <ProjectReference Include="..\TeveApp.ViewModel\TeveApp.ViewModel.csproj" />
+	  <ProjectReference Include="..\TeveApp.View\TeveApp.View.csproj" />
 	</ItemGroup>
 
 </Project>

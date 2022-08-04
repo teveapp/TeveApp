@@ -18,9 +18,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\TeveApp.Controls\TeveApp.Controls.csproj" />
-	  <ProjectReference Include="..\TeveApp.Shared\TeveApp.Shared.csproj" />
-	  <ProjectReference Include="..\TeveApp.View\TeveApp.View.csproj" />
+	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
 	</ItemGroup>
 
 </Project>
